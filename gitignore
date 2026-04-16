@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# YOLOv5 training outputs (large files, not meant for Git)
+runs/
+wandb/
+yolov5/
+
+# Large model files (use Git LFS if you want to track these)
+# *.pt
+# *.pth
+# *.onnx
+
+# Datasets (don't commit raw data)
+datasets/
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+logs/
